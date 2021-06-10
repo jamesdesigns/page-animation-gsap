@@ -30,7 +30,9 @@ nav {
 
 #logo {
   grid-column: 2/3;
-  font-size: 24px;
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: -4px;
 }
 
 .hamburger {
@@ -58,8 +60,31 @@ section {
 .headline {
   position: absolute;
   color: white;
-  top: 65%;
-  left: 25%;
+  top: 50%;
+  left: 33%;
   font-size: 100px;
   transform: translate(-20%, -70%);
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+.cta {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  padding: 15px 35px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.cta:hover {
+  background-color: #ff33cc;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 10px 3px #000000; 
+  box-shadow: 3px 3px 10px 3px #000000;
 }
