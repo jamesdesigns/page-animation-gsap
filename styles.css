@@ -71,7 +71,7 @@ section {
 .cta {
   position: absolute;
   top: 60%;
-  left: 45%;
+  left: 43%;
   padding: 15px 35px;
   border-radius: 30px;
   border: none;
@@ -88,3 +88,16 @@ section {
   -webkit-box-shadow: 3px 3px 10px 3px #000000; 
   box-shadow: 3px 3px 10px 3px #000000;
 }
+
+@media all and (max-width: 480px) {
+  .headline {
+    font-size: 20vw;
+    top: 50%;
+    left: 28%;
+  }
+
+  .cta {
+    top: 65%;
+    left: 23%;
+  }
+} 
