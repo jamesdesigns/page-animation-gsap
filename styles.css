@@ -89,9 +89,9 @@ section {
   box-shadow: 3px 3px 10px 3px #000000;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 475px) {
   .headline {
-    font-size: 20vw;
+    font-size: 16vw;
     top: 50%;
     left: 28%;
   }
